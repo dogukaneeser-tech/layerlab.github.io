@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LayerLab - 3D Printer Management</title>
+    <meta name="description" content="LayerLab - Visualize G-code files in 3D, control printers remotely, manage print farms, and preview prints in AR.">
+    <meta name="apple-itunes-app" content="app-id=6762074190">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif; background: #0d0d12; color: #fff; }
+        a { color: #EC6B29; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero {
+            min-height: 100vh; display: flex; flex-direction: column;
+            align-items: center; justify-content: center; text-align: center;
+            padding: 40px 20px;
+            background: radial-gradient(ellipse at 50% 0%, rgba(236,107,41,0.15) 0%, transparent 60%);
+        }
+        .app-icon {
+            width: 120px; height: 120px; border-radius: 28px;
+            background: linear-gradient(135deg, #EC6B29, #d45a1e);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 56px; margin-bottom: 24px;
+            box-shadow: 0 8px 32px rgba(236,107,41,0.3);
+        }
+        h1 { font-size: 48px; font-weight: 700; margin-bottom: 12px; }
+        .subtitle { font-size: 20px; color: #999; max-width: 500px; margin-bottom: 40px; line-height: 1.5; }
+        .badge { height: 54px; }
+        .features {
+            max-width: 900px; margin: 0 auto; padding: 80px 20px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 32px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05); border-radius: 16px; padding: 28px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .feature-icon { font-size: 32px; margin-bottom: 12px; }
+        .feature h3 { font-size: 18px; margin-bottom: 8px; }
+        .feature p { font-size: 14px; color: #999; line-height: 1.6; }
+        footer {
+            text-align: center; padding: 40px 20px; border-top: 1px solid rgba(255,255,255,0.08);
+            color: #666; font-size: 13px;
+        }
+        footer a { color: #999; margin: 0 12px; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="app-icon">&#9649;</div>
+        <h1>LayerLab</h1>
+        <p class="subtitle">Visualize G-code in 3D, control your printers remotely, manage print farms, and preview your prints in AR before they happen.</p>
+        <a href="https://apps.apple.com/app/id6762074190">
+            <img class="badge" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">&#127922;</div>
+            <h3>3D G-code Visualization</h3>
+            <p>Interactive SceneKit rendering lets you inspect every layer of your print before it starts.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#128241;</div>
+            <h3>AR Preview</h3>
+            <p>Place your 3D model on your desk in augmented reality to see the real-world scale before printing.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#127959;</div>
+            <h3>Remote Control</h3>
+            <p>Monitor temperature, webcam feed, and control your printer's nozzle and bed from anywhere on your network.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#128200;</div>
+            <h3>Smart Analysis</h3>
+            <p>Detect potential issues like empty layers, excessive speed, or high support ratios before you print.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#127981;</div>
+            <h3>Print Farm</h3>
+            <p>Manage multiple printers from a single dashboard with real-time status monitoring.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#128176;</div>
+            <h3>Cost Estimation</h3>
+            <p>Calculate filament, electricity, and labor costs. Generate professional PDF proposals for clients.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
+        <p style="margin-top: 12px;">&copy; 2025 LayerLab. All rights reserved.</p>
+    </footer>
+</body>
+</html>
